@@ -27,7 +27,7 @@ window.addEventListener('load', function () { //this function loads automaticall
 }, false);
 
 if ('serviceWorker' in navigator) { //checks if the service worker is possible in the browser
-    navigator.serviceWorker.register('sw.js'); //register the sw.js (sw.js must be in the same file as index.js)
+    navigator.serviceWorker.register('sw.js'); //register the sw.js (sw.js must be in the same folder as index.js)
 }
 ```
 
